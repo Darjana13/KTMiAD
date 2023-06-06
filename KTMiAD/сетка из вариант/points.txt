@@ -1,0 +1,30 @@
+6 3
+1 0 2 0 4 0 7 0 9 0 10 0
+0 1 3 1 4 1 7 1 8 1 11 1
+-1 2 3 2 4 2 7 2 8 2 12 2 
+4
+0 1 2 3
+6
+0 0 5 1 2 0 3
+0 0 1 0 1 0 3
+0 1 2 0 1 0 2
+0 2 3 0 1 0 1
+0 3 4 0 1 0 2
+0 4 5 0 1 0 3
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1
+1 1 1 1 1 1
+
+// Kx Ky
+// х_1_1 у_1_1 ... x_1_Kx y_1_Kx
+// ...
+// х_Ky_1 у_Ky_1 ... x_Ky_Kx y_Ky_Kx
+// Kz
+// z_1_1 ... z_1_Kz
+// Nobl
+// mat_1 num_x_start_1 num_x_end_1 num_y_start_1 num_y_end_1 num_z_start_1 num_z_end_1
+// ...
+// mat_Nobl num_x_start_Nobl num_x_end_Nobl num_y_start_Nobl num_y_end_Nobl num_z_start_Nobl num_z_end_Nobl
+// n_x_1 k_x_1 ... n_x_(Kx-1) k_x_(Kx-1)
+// n_y_1 k_y_1 ... n_y_(Ky-1) k_y_(Ky-1)
+// n_z_1 k_z_1 ... n_z_(Kz-1) k_z_(Kz-1)
